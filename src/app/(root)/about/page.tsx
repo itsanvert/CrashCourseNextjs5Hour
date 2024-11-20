@@ -1,7 +1,13 @@
-import React from "react";
+import React from 'react';
 
-function page() {
-  return <div>About</div>;
-}
+const Page = () => {
+  throw new Error("NOT IMPLEMENTED");
 
-export default page;
+  return (
+    <div>
+      About
+    </div>
+  );
+};
+
+export default Page;
